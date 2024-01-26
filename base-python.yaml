@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: base-python
+spec:
+  containers:
+  - name: base-python
+    image: python:latest
+    command: ["python3", "-c", "import time; time.sleep(600)"]
