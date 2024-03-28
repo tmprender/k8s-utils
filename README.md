@@ -3,4 +3,3 @@ Use the above examples to quickly run a container without building or (directly)
 
 ## Example
 `kubectl apply -f base-python.yaml`
-
